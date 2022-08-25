@@ -8,7 +8,6 @@
 .team-container .team-header {
   text-align: center;
 }
-
 .team-container .team-header .team-title {
   color: var(--dark);
   font-size: 2rem;
@@ -37,7 +36,7 @@
 .team-card img {
   height: 280px;
   width: 100%;
-  background: var(--lightgrey);
+  background: var(--light);
   object-fit: contain;
   margin-bottom: 10px;
   padding-top: 10px;
@@ -59,7 +58,7 @@
 }
 .team-card .t-description {
   font-size: 14px;
-  color: var(--lightgrey);
+  color: var(--light);
   font-style: italic;
 }
 .team-card .team-social-icons {
@@ -88,8 +87,7 @@
     margin: 60px 30px;
   }
   .team-card {
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
     width: 100%;
   }
 }

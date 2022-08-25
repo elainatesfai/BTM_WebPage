@@ -1,11 +1,9 @@
 .page-intro-container {
   margin: 15px 150px;
   height: 380px;
-
   display: flex;
   align-items: center;
   background-color: var(--white);
-
   /* border-radius: 25px; */
 }
 
@@ -28,7 +26,7 @@
 .intro-text {
   font-size: 1.5rem;
   font-weight: 300;
-  color: var(--lightgrey);
+  color: #9a9a9a;
   padding-bottom: 15px;
 }
 
@@ -53,19 +51,13 @@
 }
 
 .video.btn {
-  background-color: #d1d1d1;
+  background-color: #eee;
   margin-left: 15px;
   color: #777;
 }
-.video.btn:hover{
-
-  border: 2px solid rgba(231 , 90 ,8);
- }
-
 
 .video.btn:hover .icon {
-  color: rgb(231, 90, 8);
-
+  color: var(--icons) ;
 }
 
 .video.btn .icon {
@@ -78,7 +70,7 @@
   width: 50%;
   height: 100%;
   background: url("./images/Logo_btm.png")
-    no-repeat center / contain;
+  no-repeat center / contain;
   animation: introImage 2s ease-in-out infinite alternate-reverse;
 }
 

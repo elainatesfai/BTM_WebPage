@@ -3,7 +3,6 @@
   justify-content: space-between;
   /* flex-wrap: wrap; */
   margin: 0 145px;
-
 }
 
 .card {
@@ -16,7 +15,6 @@
   padding: 20px;
   border: 1px solid transparent;
   margin: 5px;
-  border-bottom: 4px solid var(--secondary);
 }
 
 .card-icon {
@@ -32,18 +30,16 @@
 
 .card-text {
   font-size: 15px;
-  color: var(--lightgrey);
+  color: var(--light);
 }
 
 .card:hover {
-  border: 1px solid #e5e5e5;
-  border-bottom: 6px solid rgba(231 , 90 ,8);
+  border: 2px solid #e5e5e5;
+
 }
-.card:hover .card-icon {
-  color:  rgba(231 , 90 ,8);
-}
+
 .card:hover .card-title {
-  color: var(--primary);
+  color: var(--icons);
 
 }
 

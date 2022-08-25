@@ -1,9 +1,11 @@
 :root {
   --primary: #002646;
   --secondary: #00325b;
-  --dark: #050400;
-  --lightgrey: #3f3c3c;
+  --dark: #555;
+  --light: #9a9a9a;
   --white: #f7f7f7;
+
+  --icons : #FF6633;
 }
 
 html {

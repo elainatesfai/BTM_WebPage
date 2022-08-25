@@ -1,7 +1,7 @@
 .testimonial-container {
   margin: 15px 150px;
   background-color: var(--white);
-  padding-bottom: 0px;
+  padding-bottom: o;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@
 
 .testimonial-body .quote {
   padding-right: 5px;
-  color: var(--lightgrey);
+  color: var(--light);
 }
 
 .testimonial-body .quote:last-child {
@@ -83,7 +83,7 @@
 }
 
 li.alice-carousel__dots-item {
-  background-color: #e5640b!important;
+  background-color: hsl(120, 73%, 85%) !important;
 }
 
 li.alice-carousel__dots-item.__active {

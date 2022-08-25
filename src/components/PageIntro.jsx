@@ -21,8 +21,7 @@ export default function PageIntro() {
         <div className="text-container">
           <h1 className="intro-title">Brunel Talent Market Place</h1>
           <p className="intro-text">
-            Fostering symbiotic relationships between industry and academia through innovative IT & Data Science
-            services delivered by our leading experts and talented students.
+            A non-profit organisation aiming to foster symbiotic relations between industry and academia.
           </p>
           <div className="btn-row">
             <button className="video btn" onClick={() => setToggle(!toggle)}>
