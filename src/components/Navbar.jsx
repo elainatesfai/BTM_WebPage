@@ -22,9 +22,7 @@ export default function Navbar() {
         "home",
         "about",
         "services",
-        "portfolio",
         "testimonials",
-        "cta",
         "team",
         "contact"
       ];
@@ -118,18 +116,7 @@ export default function Navbar() {
                   </button>
                 </li>
 
-                <li
-                  className="nav-item"
-                  onClick={() => handleNavItemClick("portfolio")}
-                >
-                  <button
-                    className={
-                      "nav-link" + (active === "portfolio" ? " active" : "")
-                    }
-                  >
-                    Portfolio
-                  </button>
-                </li>
+
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("team")}
@@ -156,9 +143,7 @@ export default function Navbar() {
                 </li>
               </div>
               <div className="navbar-social">
-                <span className="icon">
-                  <i className="fab fa-facebook"></i>
-                </span>
+
                 <span className="icon">
                   <a
                     href="https://twitter.com/hashBender"

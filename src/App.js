@@ -5,7 +5,6 @@ import PageIntro from "./components/PageIntro";
 import InfoCards from "./components/InfoCards";
 import About from "./components/About";
 import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import CallToAction from "./components/CallToAction";
 import Team from "./components/Team";
@@ -23,7 +22,6 @@ export default function App() {
       <About />
       <Services />
       <CallToAction />
-      <Portfolio />
       <Testimonials />
       <Team />
       <Contact />

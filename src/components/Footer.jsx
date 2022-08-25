@@ -14,7 +14,6 @@ export default function App() {
 
           <div className="social-block">
             <i className="fab fa-twitter"></i>
-            <i className="fab fa-facebook"></i>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-linkedin"></i>
           </div>

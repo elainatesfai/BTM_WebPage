@@ -67,6 +67,7 @@
 .nav-link:hover,
 .nav-link.active {
   color: var(--icons);
+
 }
 
 .navbar-social .icon {
@@ -83,6 +84,7 @@
 
 .navbar-social .icon a:hover {
   color: var(--icons);
+
 }
 
 .navbar-social .icon:hover {
