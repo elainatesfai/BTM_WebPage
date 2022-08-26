@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 
+
 export default function App() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function App() {
       <InfoCards />
       <About />
       <Services />
+
       <CallToAction />
       <Testimonials />
       <Team />

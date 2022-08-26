@@ -29,7 +29,10 @@ export default function PageIntro() {
             </button>
           </div>
         </div>
-        <div className="image-container"></div>
+        <div className="image-container">
+
+
+        </div>
 
         <div
           className={"video-background" + (toggle ? " show" : "")}

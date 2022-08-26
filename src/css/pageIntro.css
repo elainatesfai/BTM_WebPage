@@ -69,9 +69,16 @@
 .image-container {
   width: 50%;
   height: 100%;
-  background: url("./images/Logo_btm.png")
+  background: url("./images/Code Development _Outline.png")
   no-repeat center / contain;
   animation: introImage 2s ease-in-out infinite alternate-reverse;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .video-background {
@@ -112,6 +119,7 @@
   outline: none;
   z-index: 10;
 }
+
 
 @keyframes introImage {
   from {
