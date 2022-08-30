@@ -11,22 +11,21 @@ export default function InfoCards() {
       <Card
         image={aim}
         title="Our Initiative"
-        text="We are not a profit-driven organisation. Instead, we aim to foster better relations between our customers, lead scientists, and talented students"
-      />
-
-      <Card
-        image={student}
-        title="Our Talent"
-        text="Our talented students are hand-picked based on their grades and, more importantly, on their soft skills demonstrated throughout
-        the year in labs, classes, teamwork, and other face-to-face interactions."
+        text="We are driven by our desire to form bonds between industry and our talented students."
       />
 
       <Card
         image={teams}
-        icon="fa fa-users"
         title="Our Company Culture"
-        text="Our staff base is our talented students who work side to side with our world-leading specialists to deliver on time and with utmost quality.."
+        text="Our staff base is uniquely identifiable by our student talent and leading experts."
       />
+
+      <Card
+        image={student}
+        title="Our Competition"
+        text="We beat our competition with viable prices, whilst matching their quality of work."
+      />
+
     </div>
   );
 }
