@@ -8,10 +8,10 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import CallToAction from "./components/CallToAction";
 import Team from "./components/Team";
+import Experts from "./components/Experts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
-
 
 
 export default function App() {
@@ -22,10 +22,10 @@ export default function App() {
       <InfoCards />
       <About />
       <Services />
-
       <CallToAction />
       <Testimonials />
       <Team />
+      <Experts />
       <Contact />
       <Footer />
     </>
