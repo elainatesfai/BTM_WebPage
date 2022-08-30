@@ -16,14 +16,14 @@ export default function App() {
       <div className="team-cards">
 
         <TeamCard
-          image={Rumyana}
+          image={Alan}
           name="Alan Serrano Rico"
           work="CTO"
           description="Dr Alan Serrano-Rico is an experienced researcher, whose research lies in the domain of information systems and organisational strategy"
         />
         <TeamCard
-          image=""
-          name="Ban Boro"
+          image={Rumyana}
+          name="Rumyana Neykova"
           work="CTO"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
