@@ -25,6 +25,7 @@
   width: 100%;
 }
 .team-card {
+  border-radius: 25px;
   padding: 20px;
   height: 380px;
   width: 320px;
@@ -35,6 +36,7 @@
   align-items: center;
 }
 .team-card img {
+  border-radius: 25px;
   height: 280px;
   width: 100%;
   background: var(--light);
@@ -57,10 +59,6 @@
   font-size: 14px;
   color: #444;
 }
-
-/* .team-card-out{
-  height: 2000px;
-} */
 
 .team-card .t-description {
   padding-bottom: 150px;
