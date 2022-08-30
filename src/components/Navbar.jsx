@@ -23,7 +23,7 @@ export default function Navbar() {
         "about",
         "services",
         "testimonials",
-        "team",
+        "talent",
         "contact"
       ];
 
@@ -119,16 +119,17 @@ export default function Navbar() {
 
                 <li
                   className="nav-item"
-                  onClick={() => handleNavItemClick("team")}
+                  onClick={() => handleNavItemClick("talent")}
                 >
                   <button
                     className={
-                      "nav-link" + (active === "team" ? " active" : "")
+                      "nav-link" + (active === "talent" ? " active" : "")
                     }
                   >
-                    Team
+                    Talent
                   </button>
                 </li>
+                
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("contact")}
