@@ -1,15 +1,7 @@
-/* .page-intro-container {
-  margin: 15px 150px;
-  height: 450px;
-  display: flex;
-  align-items: center;
-  background-color: var(--white);
-  border-radius: 25px;
-} */
 
 .page-intro-container {
   margin: 15px 150px;
-  height: 450px;
+  height: 430px;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;

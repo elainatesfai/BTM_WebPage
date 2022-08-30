@@ -12,6 +12,7 @@
 
 }
 .col-2 {
+  border-radius: 25px;
   color: var(--lightgrey);
   margin: auto;
 }
