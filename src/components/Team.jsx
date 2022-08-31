@@ -2,7 +2,9 @@ import React from "react";
 import TalentCard from "./commonStructure/TalentCard";
 
 import "../css/team.css";
+
 import Elaina from "../css/images/Talents/ElainaTesfai.png"
+import Islam from "../css/images/Talents/IslamRaihan.png"
 
 export default function App() {
   return (
@@ -22,10 +24,11 @@ export default function App() {
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
         <TalentCard
-          image="https://purepng.com/public/uploads/large/businessman-onj.png"
+          image={Islam}
           name="Islam Raihan"
           work="Front-end Developer"
-          description="I am an enthusiastic individual who is fascinated by technology and its constant advancements. I am currently going through my final year on Computer Science Software Engeering course."
+          description="I am an enthusiastic individual who is fascinated by technology and its constant advancements. 
+          I am currently a junior developer at Glue Reply."
         />
         <TalentCard
           image="https://purepng.com/public/uploads/large/businessman-onj.png"

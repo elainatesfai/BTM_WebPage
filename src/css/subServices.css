@@ -1,0 +1,58 @@
+.subservices-container{
+    border-radius: 15px;
+    height: 310px;
+    width: auto;
+    display: flex;
+    background-color: var(--primary);
+    margin: 0px 300px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subservice-card {
+    border-radius: 15px;
+}
+
+.subservice-card .card-title {
+    position: relative;
+    bottom: 40px;
+}
+
+.subservice-card .card-icon {
+    position: relative;
+    bottom: 20px;
+}
+
+.subservice-card .card-text {
+    position: relative;
+    font-size: 14px;
+    top: 40px;
+    text-align: center;
+}
+
+.subservice-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: var(--white);
+    padding: 20px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid transparent;
+    margin: 10px;
+  }
+
+.software-development-subservices{
+    visibility: visible;
+    position: absolute;
+    display: flex;
+}
+
+.data-and-AI-subservices{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+}

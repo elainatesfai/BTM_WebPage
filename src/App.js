@@ -11,8 +11,8 @@ import Team from "./components/Team";
 import Experts from "./components/Experts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import SubService from "./components/SubServices"
 import "./App.css";
-
 
 export default function App() {
   return (
@@ -22,6 +22,7 @@ export default function App() {
       <InfoCards />
       <About />
       <Services />
+      <SubService />
       <CallToAction />
       <Testimonials />
       <Team />
