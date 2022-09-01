@@ -11,7 +11,7 @@ import Team from "./components/Team";
 import Experts from "./components/Experts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import SubService from "./components/SubServices"
+// import SubService from "./components/SubServices"
 import "./App.css";
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
       <InfoCards />
       <About />
       <Services />
-      <SubService />
+      {/* <SubService /> */}
       <CallToAction />
       <Testimonials />
       <Team />

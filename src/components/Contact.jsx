@@ -24,14 +24,14 @@ export default function App() {
             <i className="fas fa-envelope"></i>
             <div className="email-details">
               <p>Email</p>
-              <p>alan.edwin.serrano-rico@brunel.ac.uk</p>
+              <p>btm@brunel.ac.uk</p>
             </div>
           </div>
           <div className="phone">
             <i className="fas fa-phone-alt"></i>
             <div className="phone-details">
               <p>Call</p>
-              <p> 01895 274000</p>
+              <p> 01895 266048</p>
             </div>
           </div>
 

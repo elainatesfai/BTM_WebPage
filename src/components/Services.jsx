@@ -1,131 +1,58 @@
 import React, { useState } from "react";
-import ServiceCard from "./commonStructure/ServiceCard";
-import {animated, useSpring} from "react-spring"
-import SubServiceCard from "./commonStructure/SubServiceCard";
+// import SubServiceCard from "./commonStructure/SubServiceCard";
+import 'animate.css';
 
 import "../css/services.css";
 import "../css/subServices.css";
+import { SubServicesAI, SubServicesSD, SubServicesPOC, SubServicesRD, SubServicesUXUI } from "./SubServices";
 
 export default function InfoCards() {
-  const Show = () => {
-    const [showResults, setShowResults] = React.useState(false)
-    const onClick = () => setShowResults(true)
-    return (
-      <div>
-        <SubServiceCard 
-          icon="fas fa-tachometer-alt"
-          title="Mobile Apps"
-          text="We develop fully functional mobile applications in Android and IOS using agile methodologies,
-          allowing a collaborative environment with our customers."
-          type="submit" value="Show" onClick={onClick} />
-        { showResults ? <software-development-subservices /> : null }
-      </div>
-    )
-  }
-  
-  const Results = () => (
 
-    <div className="software-development-subservices" id="software-development-subservices">
-                
-
-                <SubServiceCard 
-                    icon="fas fa-tachometer-alt"
-                    title="Web Development"
-                    text="Our talented students are well equipped to drive the building and creation of websites, 
-                    including aspects of web design, web publishing, web programming, and database management."
-                />
-
-                <SubServiceCard 
-                    icon="fas fa-tachometer-alt"
-                    title="API"
-                    text="We design and deploy application programming interfaces that enable applications to integrate with each other. 
-                    Generating a culture of transparency, leading to data-sharing and information flowing."
-                />
-            </div>
-
-    // <div id="results" className="search-results">
-    //   Some Results
-    // </div>
-  )
-  
-
+const [services, setServices] = useState('')
 
   return (
    <>
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="title">Services</div>
         <div className="description">
           We specialize in a wide range of services
         </div>
         <div className="services">
-            <ServiceCard id='D&AI'
-              icon="fa fa-database"
-              title="Data and AI"
-            />
-            
-            <ServiceCard
-              icon="fas fa-tachometer-alt"
-              title="Software Development"
-            />
+          <button onClick = {() => setServices(SubServicesAI)} className="services-btn">
+            <i className="fa fa-database"></i>
+            <p className="card-title">Data & AI</p>
+          </button>
 
-            <ServiceCard
-              icon="fa fa-terminal"
-              title="Proof of Concept"
-            />
+          <button onClick = {() => setServices(SubServicesSD)} className="services-btn">
+            <i className="fas fa-tachometer-alt"></i>
+            <p className="card-title">Software Development</p>
+          </button>
 
-            <ServiceCard
-              icon="fas fa-laptop-code"
-              title="Applied R&D"
-            />
+          <button onClick = {() => setServices(SubServicesPOC)} className="services-btn">
+            <i className="fa fa-terminal"></i>
+            <p className="card-title">Proof of Concept</p>
+          </button>
 
-            <ServiceCard
-              icon="fa fa-code"
-              title="UX & UI Design"
-            />
+          <button onClick = {() => setServices(SubServicesRD)} className="services-btn">
+            <i className="fas fa-laptop-code"></i>
+            <p className="card-title">Applied R&D</p>
+          </button>
 
+          <button onClick = {() => setServices(SubServicesUXUI)} className="services-btn">
+            <i className="fa fa-code"></i>
+            <p className="card-title">UX & UI Design</p>
+          </button>
         </div>
+        {/* <div className="arrow-down">
+            <icon className="fa fa-caret-down"></icon>
+            <icon className="fa fa-caret-down"></icon>
+            <icon className="fa fa-caret-down"></icon>
+            <icon className="fa fa-caret-down"></icon>
+            <icon className="fa fa-caret-down"></icon>
+          </div> */}
+          <p>{services}</p>
       </div>
    </> 
   )
 
 }
-
-// export default function InfoCards() {
-//   return (
-//     <div className="services-container" id="services">
-//       <div className="title">Services</div>
-//       <div className="description">
-//         We specialize in a wide range of services
-
-//       </div>
-//       <div className="services">
-
-//         <ServiceCard id='D&AI'
-//           icon="fa fa-database"
-//           title="Data and AI"
-//         />
-
-//         <ServiceCard
-//           icon="fas fa-tachometer-alt"
-//           title="Software Development"
-//         />
-
-//         <ServiceCard
-//           icon="fa fa-terminal"
-//           title="Proof of Concept"
-//         />
-
-//         <ServiceCard
-//           icon="fas fa-laptop-code"
-//           title="Applied R&D"
-//         />
-
-//         <ServiceCard
-//           icon="fa fa-code"
-//           title="UX & UI Design"
-//         />
-
-//       </div>
-//     </div>
-//   );
-// }

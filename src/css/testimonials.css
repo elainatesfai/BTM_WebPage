@@ -2,7 +2,7 @@
   border-radius: 25px;
   margin: 15px 150px;
   background-color: var(--white);
-  padding-bottom: o;
+  /* padding-bottom: 0; */
   text-align: center;
 }
 
