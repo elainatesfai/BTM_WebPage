@@ -1,16 +1,19 @@
 import React from "react";
 import "../css/about.css";
+import InfoCards from "./InfoCards";
+import "../css/infoCards.css";
 
 export default function App() {
   return (
     <div className="about" id="about">
-      <div className="about-title">Our Vision</div>
+      <div className="about-title">Why Choose Us</div>
+      <InfoCards />
         <div className="about-container" id="about">
         <div className="about-image-container">
           <div className="about-image"></div>
         </div>
         <div className="about-text-container">
-          
+          <h2> Our vision </h2>
           <ul className="list">
             <li>To become a recognisable and viable IT consultancy known for its Research & Development services for West London businesses.</li>
             <li>

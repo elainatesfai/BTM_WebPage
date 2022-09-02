@@ -72,12 +72,13 @@
 .experts-card .experts-social-icons {
   display: flex;
   position: absolute;
+  margin-left: 45%;
+  align-items: center;
   bottom: 25%;
 }
 
 .experts-card .experts-social-icons i {
-  margin: 5px 5px;
-  font-size: 1.3rem;
+  font-size: 1.3rem;  
   color: var(--dark);
   cursor: pointer;
   align-items: center;
@@ -93,7 +94,7 @@
 }
 
 li.alice-carousel__dots-item {
-  background-color: hsl(120, 73%, 85%) !important;
+  background-color: var(--icons) !important;
 }
 
 li.alice-carousel__dots-item.__active {

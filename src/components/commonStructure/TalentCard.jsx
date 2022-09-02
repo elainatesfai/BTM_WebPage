@@ -8,7 +8,10 @@ export default function TalentCard({ image, name, work, description, ...rest }) 
         
           <div className="talent-card-in">
             <div className="talent-details">
-              <img src={image} alt="talent" />
+              {/* <div className="img-filter"> */}
+                <img src={image} alt="talent" />
+              {/* </div> */}
+              
               <p className="t-title">{name}</p>
               <p className="t-work">{work}</p>
             </div>

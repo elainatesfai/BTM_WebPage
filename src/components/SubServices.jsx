@@ -4,25 +4,28 @@ import SubServiceCard from "./commonStructure/SubServiceCard";
 
 export function SubServicesAI() {
     return (
-        
+        <>
+        <div className="ai-arrow">
+            <i className="fa fa-caret-down"></i>
+        </div> 
         <div className="subservices-container">
             <div className="data-and-AI">
                 <SubServiceCard 
-                    icon="fas fa-tachometer-alt"
+                    icon="fa fa-database"
                     title="Social Media Analytics"
                     text="Our experts use their industrial experience and academic rigour to find meaning 
                     in data gathered from social channels to support business decisions."
                 />
 
                 <SubServiceCard 
-                    icon="fas fa-tachometer-alt"
+                    icon="fa fa-database"
                     title="Algorithm Testing"
                     text="We use scientific methods to evaluate algorithms' validity or to compare the 
                     efficiency of a group of algorithms addressing a specific problem."
                 />
 
                 <SubServiceCard 
-                    icon="fas fa-tachometer-alt"
+                    icon="fa fa-database"
                     title="Adhoc Projects"
                     text="Providing either completely or sectionalised development on ADHOC projects following a standard data analysis life cycle:
                     1. business understanding;
@@ -34,12 +37,16 @@ export function SubServicesAI() {
                 />
             </div>
         </div>
+    </>
     )
 }
 
 export function SubServicesSD() {
     return (
         <>
+        <div className="sd-arrow">
+            <i className="fa fa-caret-down"></i>
+        </div> 
             <div className="subservices-container">
                 <div className="software-development">                    
                     <SubServiceCard 
@@ -77,14 +84,14 @@ export function SubServicesPOC() {
             <div className="subservices-container">
                 <div className="proof-of-concept">
                     <SubServiceCard 
-                        icon="fas fa-tachometer-alt"
+                        icon="fa fa-terminal"
                         title="Software Development"
                         text="Demonstrating POCs through the deployment of sectionalised software development 
                         on software such as: mobile applications, websites, and APIs."
                     />
 
                     <SubServiceCard 
-                        icon="fas fa-tachometer-alt"
+                        icon="fa fa-terminal"
                         title="Data Analysis and AI"
                         text="Demonstrate POCs through the deployment of sectionalised software development 
                         specifically on artificial intelligences software."
@@ -97,7 +104,10 @@ export function SubServicesPOC() {
 
 export function SubServicesRD() {
     return (
-        
+        <>
+        <div className="rd-arrow">
+            <i className="fa fa-caret-down"></i>
+        </div> 
             <div className="subservices-container">
                 <div className="research-and-development">
                     <SubServiceCard 
@@ -127,11 +137,16 @@ export function SubServicesRD() {
                     />
                 </div>
             </div>
+        </>
     )
 }
 
 export function SubServicesUXUI() {
     return (
+        <>
+        <div className="ux-arrow">
+            <i className="fa fa-caret-down"></i>
+        </div> 
         <div className="subservices-container">
             <div className="software-development-subservices">
                 <SubServiceCard 
@@ -143,5 +158,6 @@ export function SubServicesUXUI() {
                 />
             </div>
         </div>
+    </>
     )
 }

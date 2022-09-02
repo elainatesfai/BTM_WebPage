@@ -2,7 +2,6 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import PageIntro from "./components/PageIntro";
-import InfoCards from "./components/InfoCards";
 import About from "./components/About";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
@@ -19,12 +18,12 @@ export default function App() {
     <>
       <Navbar />
       <PageIntro />
-      <InfoCards />
       <About />
+      {/* <InfoCards /> */}
       <Services />
       {/* <SubService /> */}
       <CallToAction />
-      <Testimonials />
+      <Testimonials /> 
       <Team />
       <Experts />
       <Contact />

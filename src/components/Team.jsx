@@ -7,6 +7,9 @@ import "../css/team.css";
 
 import Elaina from "../css/images/Talents/ElainaTesfai.png"
 import Islam from "../css/images/Talents/IslamRaihan.png"
+// import 
+
+// import Marwan from "../css/images/Talents/MarwanHajMohamed.png"
 
 const items = [
       <TalentCard
@@ -80,6 +83,7 @@ export default function App() {
           items={items}
           responsive={responsive}
           autoPlay
+          autoPlayDirection="rtl"
           infinite
           autoPlayInterval={5000}
           animationDuration={1000}
