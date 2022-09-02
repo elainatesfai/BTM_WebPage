@@ -22,8 +22,8 @@ export default function App() {
       {/* <InfoCards /> */}
       <Services />
       {/* <SubService /> */}
-      <CallToAction />
-      <Testimonials /> 
+      {/* <CallToAction /> */}
+      {/* <Testimonials />  */}
       <Team />
       <Experts />
       <Contact />

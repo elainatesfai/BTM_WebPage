@@ -43,6 +43,7 @@
 }
 
 .card:hover {
+  cursor: pointer;
   border: 2px solid #e5e5e5;
 
 }
@@ -106,7 +107,7 @@
 }
 
 .card:hover .card-in {
-  opacity: 0.06;
+  opacity: 0.04;
 }
 
 .card:hover .card-out {

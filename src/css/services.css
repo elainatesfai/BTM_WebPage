@@ -4,17 +4,18 @@
   align-items: center;
   padding: 10px;
   margin-top: 40px;
+  background-color: var(--primary);
 }
 .services-container .title {
   font-size: 2rem;
-  color: var(--dark);
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 .services-container .description {
   font-size: 1rem;
-  color: #444;
+  color: #ffffff;
   margin-bottom: 10px;
   text-align: center;
   padding: 0 10px;
@@ -30,8 +31,8 @@
   width: auto;
   background-color: var(--white);
   padding: 20px;
-  width: 150px;
-  height: 150px;
+  width: 135px;
+  height: 37px;
   border: 1px solid transparent;
   margin: 10px;
 }
@@ -42,7 +43,7 @@
 
 .services-btn:hover {
   cursor: pointer;
-  border: 2px solid #e5e5e5;
+  /* border: 2px solid #e5e5e5; */
 }
 
 .services-btn .card-title {
@@ -50,8 +51,6 @@
   text-align: center;
   font-weight: 600;
   color: var(--dark);
-  margin-bottom: 15px;
-  margin-top: 20px;
 }
 
 .services-btn:hover .card-title {
@@ -59,9 +58,14 @@
 }
 
 .services-btn i {
+  position: relative;
+  top: 5px;
+  bottom: 5px;
   font-size: 2rem;
   font-weight: 600;
   color: var(--primary);
+  margin-bottom: 4px;
+  align-items: center;
 }
 
 .arrow-down .fa{
