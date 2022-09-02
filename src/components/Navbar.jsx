@@ -22,7 +22,6 @@ export default function Navbar() {
         "home",
         "about",
         "services",
-        "testimonials",
         "talents",
         "experts",
         "contact"

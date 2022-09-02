@@ -43,7 +43,8 @@
 
 .services-btn:hover {
   cursor: pointer;
-  /* border: 2px solid #e5e5e5; */
+  background-color: #FF9464;
+  box-shadow: 5px 7px gray;
 }
 
 .services-btn .card-title {
@@ -58,9 +59,10 @@
 }
 
 .services-btn i {
+  visibility: hidden;
   position: relative;
   top: 5px;
-  bottom: 5px;
+  bottom: 20px;
   font-size: 2rem;
   font-weight: 600;
   color: var(--primary);
@@ -83,6 +85,11 @@
   flex-wrap: wrap;
   justify-content:center;
 }
+.services-btn:hover {
+  cursor: pointer;
+    background-color: #FF9464;
+    box-shadow: 5px 7px rgba(22,33,76,0.8);
+}
 
 @media (max-width: 1100px) {
   .services {
@@ -91,6 +98,12 @@
   .services-btn {
     width: 55px;
     height: 55px;
+  }
+  .services-btn .card-title {
+    visibility: hidden;
+  }
+  .services-btn i {
+    visibility: visible;
   }
 }
 @media (max-width: 768px) {
@@ -102,9 +115,7 @@
     height: 55px;
   }
   .services-btn .card-title {
-    font-size: 6px;
-    margin-bottom: 15px;
-    text-align: center;
+    visibility: hidden;
   }
   .services-btn i {
     font-size: 16px;

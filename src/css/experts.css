@@ -37,6 +37,7 @@
   text-align: left;
 }
 .experts-card img {
+  filter: grayscale(100%);
   object-fit: cover;
   border-radius: 15px;
   height: 280px;
@@ -71,10 +72,10 @@
 
 .experts-card .experts-social-icons {
   display: flex;
-  position: absolute;
+  position: sticky;
   margin-left: 45%;
   align-items: center;
-  bottom: 25%;
+  bottom: 7%;
 }
 
 .experts-card .experts-social-icons i {

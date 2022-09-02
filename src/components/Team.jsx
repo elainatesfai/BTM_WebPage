@@ -7,18 +7,20 @@ import "../css/team.css";
 
 import Elaina from "../css/images/Talents/ElainaTesfai.png"
 import Islam from "../css/images/Talents/IslamRaihan.png"
-// import 
+import Shrawani from "../css/images/Talents/ShrawaniMenghal.png"
+import Thoybur from "../css/images/Talents/ThoyburRohman.png"
+// import Shrawani from "../css/images/Talents/ShrawaniMenghal.png"
 
 // import Marwan from "../css/images/Talents/MarwanHajMohamed.png"
 
 const items = [
-      <TalentCard
-          image="https://purepng.com/public/uploads/large/businessman-onj.png"
-          name="Phillip Bibik"
-          work="Programmer"
-          description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
-          data-value="1"
-        />,
+      // <TalentCard
+      //     image="https://purepng.com/public/uploads/large/businessman-onj.png"
+      //     name="Phillip Bibik"
+      //     work="Programmer"
+      //     description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
+      //     data-value="1"
+      //   />,
         
         <TalentCard
           image={Islam}
@@ -29,19 +31,19 @@ const items = [
           data-value="2"
         />,
 
-        <TalentCard
-          image="https://purepng.com/public/uploads/large/businessman-onj.png"
-          name="Mandeep Singh"
-          work="Programmer"
-          description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
-          data-value="3"
-        />,
+        // <TalentCard
+        //   image="https://purepng.com/public/uploads/large/businessman-onj.png"
+        //   name="Mandeep Singh"
+        //   work="Programmer"
+        //   description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
+        //   data-value="3"
+        // />,
 
         <TalentCard
-          image="https://purepng.com/public/uploads/large/businessman-onj.png"
+          image={Thoybur}
           name="Thoybur Rohman"
           work="Programmer/Executive Team"
-          description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
+          description="I am strong-willed and strive to make my initial plans and prototypes a success regardless of the obstacles that stand in the way. This will facilitate me in becoming successful in this career."
           data-value="4"
         />,
 
@@ -59,6 +61,14 @@ const items = [
           work="Front-end Developer"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
           data-value="6"
+        />,
+
+        <TalentCard
+          image={Shrawani}
+          name="Shrawani Menghal"
+          work="Data Analyst"
+          description="I am a curious person, enthusiastic to learn how things around me work. I'm currently diving into the world of Data."
+          data-value="7"
         />
 ]
 
