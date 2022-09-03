@@ -11,7 +11,7 @@ export default function Navbar() {
     setToggle(!state);
   };
 
-  const handleNavItemClick = (item) => {
+  const handleNavItemClick = (item ) => {
     handleNavToggle();
     handleScroll(item);
   };
@@ -27,13 +27,13 @@ export default function Navbar() {
         "contact"
       ];
 
-      if (window.pageYOffset > 200) {
+      if (window.pageYOffset > 300) {
         setScrollUp(true);
       } else setScrollUp(false);
 
       navArray.forEach(async (element) => {
         if (window.innerHeight < 500) setActive("home");
-        if (window.innerHeight > (await getPos(element)) - 300)
+        if (window.innerHeight > (await getPos(element)) - 100)
           setActive(element);
       });
     });
@@ -116,7 +116,6 @@ export default function Navbar() {
                   </button>
                 </li>
 
-
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("talents")}
@@ -129,7 +128,6 @@ export default function Navbar() {
                     Talents
                   </button>
                 </li>
-
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("experts")}
@@ -142,7 +140,6 @@ export default function Navbar() {
                     Experts
                   </button>
                 </li>
-                
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("contact")}
@@ -157,7 +154,9 @@ export default function Navbar() {
                 </li>
               </div>
               <div className="navbar-social">
-
+                <span className="icon">
+                  <i className="fab fa-facebook"></i>
+                </span>
                 <span className="icon">
                   <a
                     href="https://twitter.com/hashBender"

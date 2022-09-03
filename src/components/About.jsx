@@ -8,7 +8,7 @@ export default function App() {
     <div className="about" id="about">
       <div className="about-title">Why Choose Us</div>
       <InfoCards />
-        <div className="about-container" id="about">
+        <div className="about-container">
         <div className="about-image-container">
           <div className="about-image"></div>
         </div>

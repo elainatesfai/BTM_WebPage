@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 // import SubServiceCard from "./commonStructure/SubServiceCard";
-import 'animate.css';
 
 import "../css/services.css";
 import "../css/subServices.css";
@@ -9,7 +8,6 @@ import { SubServicesAI, SubServicesSD, SubServicesPOC, SubServicesRD, SubService
 export default function InfoCards() {
 
 const [services, setServices] = useState(SubServicesAI)
-const [active, setActive] = useState(false)
 
   return (
    <>

@@ -1,31 +1,13 @@
 
 .page-intro-container {
   margin: 15px 150px;
-  height: 430px;
+  height: 490px;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
   background-color: var(--white);
   border-radius: 25px;
 }
-
-/* .page-intro-container video {
-  opacity: 10;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-color: var(--white);
-} */
-
-/* video {
-  opacity: 10;
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-  background-color: var(--white);
-} */
-
-
 
 .text-container {
   padding: 0 30px;

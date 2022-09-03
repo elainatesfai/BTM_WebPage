@@ -11,7 +11,7 @@ import Shrawani from "../css/images/Talents/ShrawaniMenghal.png"
 import Thoybur from "../css/images/Talents/ThoyburRohman.png"
 // import Shrawani from "../css/images/Talents/ShrawaniMenghal.png"
 
-// import Marwan from "../css/images/Talents/MarwanHajMohamed.png"
+import Marwan from "../css/images/Talents/MarwanHajMohamed.png"
 
 const items = [
       // <TalentCard
@@ -56,7 +56,7 @@ const items = [
         />,
 
         <TalentCard
-          image="https://purepng.com/public/uploads/large/businessman-onj.png"
+          image={Marwan}
           name="Marwan Haj Mohamed"
           work="Front-end Developer"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"

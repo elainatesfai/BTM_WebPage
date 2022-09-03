@@ -7,6 +7,7 @@
   background-color: var(--primary);
 }
 .services-container .title {
+  padding-top: 15px;
   font-size: 2rem;
   color: #ffffff;
   font-weight: 700;

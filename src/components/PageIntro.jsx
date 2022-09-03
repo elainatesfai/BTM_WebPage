@@ -18,7 +18,7 @@ export default function PageIntro() {
 
   return (
     <>
-      <div className="page-intro-container" id="home"> 
+      <div className="page-intro-container"id="home"> 
         <div className="text-container">
           <h1 className="intro-title">Brunel Talent Market Place</h1>
           <p className="intro-text">
