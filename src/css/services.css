@@ -3,11 +3,10 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
   background-color: var(--primary);
 }
 .services-container .title {
-  padding-top: 15px;
   font-size: 2rem;
   color: #ffffff;
   font-weight: 700;
@@ -17,58 +16,63 @@
 .services-container .description {
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: -40px;
   text-align: center;
   padding: 0 10px;
 }
 
+.services-btn-container {
+  border: #ffffff;
+  width: 100%;
+  position: relative;
+  padding: 8px 150px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
 .services-btn {
-  border: none;
   border-radius: 15px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
+  background-color: #f7f7f7;
   width: auto;
-  background-color: var(--white);
-  padding: 20px;
-  width: 135px;
-  height: 37px;
+  min-height: 120px;
   border: 1px solid transparent;
   margin: 10px;
 }
 
 .services-btn.active {
-    border: 3px solid black;
+  border: 3px solid black;
 }
 
 .services-btn:hover {
   cursor: pointer;
-  background-color: #FF9464;
-  box-shadow: 5px 7px gray;
+  background-color: var(--icon);
+  box-shadow: 5px 7px white;
+  z-index: 1;
+  position: relative;
 }
 
 .services-btn .card-title {
-  font-size: 12px;
+  position: relative;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
   text-align: center;
-  font-weight: 600;
+  padding: 0 10px;
   color: var(--dark);
 }
 
-.services-btn:hover .card-title {
-  color: var(--icons);
-}
-
 .services-btn i {
-  visibility: hidden;
   position: relative;
-  top: 5px;
-  bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: var(--primary);
-  margin-bottom: 4px;
-  align-items: center;
 }
 
 .arrow-down .fa{
@@ -88,45 +92,90 @@
 }
 .services-btn:hover {
   cursor: pointer;
-    background-color: #FF9464;
-    box-shadow: 5px 7px rgba(22,33,76,0.8);
+  background-color: #FF9464;
+  box-shadow: 5px 7px rgba(22,33,76,0.8);
 }
 
-@media (max-width: 1100px) {
-  .services {
-    margin: 0 5px;
+/* Media Quieries */
+
+@media (max-width: 1700px) {
+  .services-btn-container {
+    padding: 8px 50px;
   }
+}
+
+@media (max-with: 1500px) {
+  .services-btn-container {
+    padding: 8px 20px;
+  }
+
   .services-btn {
-    width: 55px;
-    height: 55px;
+    min-height: 120px;
   }
+
+  .services-btn i {
+    font-size: 2rem;
+  }
+
   .services-btn .card-title {
-    visibility: hidden;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .services-btn-container {
+    padding: 8px 15px;
+  }
+
+  .services-btn {
+    min-height: 100px;
+  }
+
+  .services-btn i {
+    font-size: 2rem;
+  }
+
+  .services-btn .card-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .services-btn-container {
+    padding: 8px 10px;
+  }
+
+  .services-btn {
+    display: flex;
+    min-height: 30px;
   }
   .services-btn i {
-    visibility: visible;
+    font-size: 2rem;
   }
-}
-@media (max-width: 768px) {
-  .services {
-    margin: 0px 5px;
-  }
-  .services-btn {
-    width: 55px;
-    height: 55px;
-  }
+
   .services-btn .card-title {
+    display: none;
     visibility: hidden;
   }
+}
+@media (max-width: 500px) {
+
+  .services-btn-container {
+    padding: 8px 0;
+  }
+
+  .services-btn {
+    min-height: 80px;
+  }
+
   .services-btn i {
-    font-size: 16px;
-    position: relative;
-    top: 15px;
+    font-size: 1.5rem;
   }
-}
-@media (max-width: 700px) {
-  .service-card {
-    width: 100%;
-    margin-bottom: 10px;
+
+  .services-btn .card-title {
+    display: none;
   }
+
 }
+
+

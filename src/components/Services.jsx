@@ -16,7 +16,7 @@ const [services, setServices] = useState(SubServicesAI)
         <div className="description">
           We specialize in a wide range of services
         </div>
-        <div className="services">
+        <div className="services-btn-container">
           <button onClick = {() => setServices(SubServicesAI)} className="services-btn">
             <i className="fa fa-database"></i>
             <p className="card-title">Data & AI</p>
@@ -33,7 +33,7 @@ const [services, setServices] = useState(SubServicesAI)
           </button>
 
           <button onClick = {() => setServices(SubServicesRD)} className="services-btn">
-            <i className="fas fa-laptop-code"></i>
+            <i className="fas fa-laptop-code"/>
             <p className="card-title">Applied R&D</p>
           </button>
 
@@ -55,3 +55,5 @@ const [services, setServices] = useState(SubServicesAI)
   )
 
 }
+
+

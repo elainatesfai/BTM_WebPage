@@ -1,7 +1,7 @@
 
 .page-intro-container {
-  margin: 15px 150px;
-  height: 490px;
+  margin: 10px 150px 0px 150px;
+  height: 480px;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
@@ -46,6 +46,10 @@
   outline: none;
   cursor: pointer;
   height: 45px;
+}
+
+.text-container .talent {
+  color: var(--icons);
 }
 
 .text.btn:hover {
@@ -166,7 +170,7 @@
     justify-content: center;
     height: 450px;
     padding-top: 10px;
-    margin: 15px 25px;
+    margin: 10px 25px 0px 25px;;
   }
 
   .text-container {

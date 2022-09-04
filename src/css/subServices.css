@@ -42,42 +42,6 @@
     margin: 10px;
 }
 
-.ai-arrow i {
-    color: var(--primary);
-    position: relative;
-    left: 18%;
-    font-size: 2rem;
-}
-
-.sd-arrow i {
-    color: var(--primary);
-    position: relative;
-    left: 33.5%;
-    font-size: 2rem;
-}
-
-.poc-arrow i {
-    color: var(--primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.rd-arrow i {
-    color: var(--primary);
-    position: relative;
-    left: 65%;
-    font-size: 2rem;
-}
-
-.ux-arrow i {
-    color: var(--primary);
-    position: relative;
-    left: 142%;
-    font-size: 2rem;
-}
-
 .software-development{
     visibility: visible;
     display: flex;

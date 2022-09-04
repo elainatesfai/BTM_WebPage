@@ -33,7 +33,7 @@ export default function Navbar() {
 
       navArray.forEach(async (element) => {
         if (window.innerHeight < 500) setActive("home");
-        if (window.innerHeight > (await getPos(element)) - 100)
+        if (window.innerHeight > (await getPos(element)))
           setActive(element);
       });
     });
