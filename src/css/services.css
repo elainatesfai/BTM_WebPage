@@ -3,7 +3,11 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  margin-top: 40px;
+
+  margin-top: 10px;
+
+
+
   background-color: var(--primary);
 }
 .services-container .title {
@@ -16,14 +20,20 @@
 .services-container .description {
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 10px;
+
+  margin-bottom: -40px;
+
+
+
   text-align: center;
   padding: 0 10px;
 }
 
 .services-btn-container {
   border: #ffffff;
-  top: -30px;
+
+
+
   width: 100%;
   position: relative;
   padding: 8px 150px;
@@ -97,6 +107,7 @@
   box-shadow: 5px 7px rgba(22,33,76,0.8);
 }
 
+
 /* Media Quieries */
 
 @media (max-width: 1700px) {
@@ -109,6 +120,7 @@
   .services-btn-container {
     padding: 8px 20px;
   }
+
 
   .services-btn {
     min-height: 120px;

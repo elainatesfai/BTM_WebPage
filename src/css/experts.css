@@ -4,6 +4,7 @@
   background-color: var(--white);
   text-align: center;
 }
+
 .experts-title {
   padding-top: 15px;
   color: var(--dark);
@@ -13,6 +14,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .experts-description {
   color: var(--dark);
   padding-bottom: 5px;
@@ -20,6 +22,7 @@
   margin: 10px 0;
   padding: 0 30px;
 }
+
 .experts-card {
   display: flex;
   border-radius: 15px;
@@ -31,12 +34,14 @@
   margin-top: 15px;
   cursor: pointer;
 }
+
 .experts-body {
   color: var(--dark);
   padding: 15px;
   height: 350px;
   text-align: left;
 }
+
 .experts-card img {
   filter: grayscale(100%);
   object-fit: cover;
@@ -46,6 +51,7 @@
   background: var(--light);
   margin-bottom: 10px;
 }
+
 .experts-card .experts-details {
   display: flex;
   flex-direction: column;
@@ -62,6 +68,11 @@
   font-style: italic;
   font-size: 14px;
   color: #444;
+}
+
+.experts-card-out .t-title {
+  margin-top: 30px;
+  color: var(--icons);
 }
 
 .experts-card .t-description {
@@ -86,6 +97,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .experts-card .experts-social-icons i:hover {
   color: var(--primary);
 }
@@ -154,7 +166,7 @@ ul.alice-carousel__dots {
 }
 
 .experts-card:hover .experts-card-in {
-  opacity: 0.1;
+  opacity: 0.04;
 }
 
 .experts-card:hover .experts-card-out {

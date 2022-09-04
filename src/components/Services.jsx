@@ -7,7 +7,9 @@ import { SubServicesAI, SubServicesSD, SubServicesPOC,SubServicesRD, SubServices
 
 export default function InfoCards() {
 
-  const [services, setServices] = useState(SubServicesAI)
+
+const [services, setServices] = useState(SubServicesAI)
+
 
   return (
     <>
@@ -17,7 +19,9 @@ export default function InfoCards() {
           We specialize in a wide range of services
         </div>
         <div className="services-btn-container">
-          <button onClick = {() =>setServices(SubServicesAI)} className="services-btn">
+
+          <button onClick = {() => setServices(SubServicesAI)} className="services-btn">
+
             <i className="fa fa-database"></i>
             <p className="card-title">Data & AI</p>
           </button>
@@ -32,7 +36,9 @@ export default function InfoCards() {
             <p className="card-title">Proof of Concept</p>
           </button>
 
-          <button onClick = {() =>setServices(SubServicesRD)} className="services-btn">
+
+          <button onClick = {() => setServices(SubServicesRD)} className="services-btn">
+
             <i className="fas fa-laptop-code"/>
             <p className="card-title">Applied R&D</p>
           </button>
@@ -55,6 +61,8 @@ export default function InfoCards() {
   )
 
 }
+
+
 
 
 
