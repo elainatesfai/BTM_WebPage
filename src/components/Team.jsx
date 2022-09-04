@@ -105,8 +105,8 @@ export default function App() {
           autoPlay
           autoPlayDirection="rtl"
           infinite
-          autoPlayInterval={5000}
-          animationDuration={1000}
+          autoPlayInterval={2800}
+          animationDuration={1300}
         />
       </div>
     </div>

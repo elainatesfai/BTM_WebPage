@@ -1,54 +1,33 @@
-
-.Main{
-  width: 100%;
-  height : min-content;
-  display: flex;
-  background-color:var(--primary) ;
-  flex-direction: column;
-  align-items: center;
-  border-top: 4px solid var(--primary);
-  border-bottom: 30px solid var(--primary);
-  align-items: center;
-}
-
 .contact-container {
-  width: 80%;
-  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 16px 20px;
-
-
-  min-width: 480px;
+  margin: 60px 150px;
 }
 .contact-container .contact-title {
   font-size: 2rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--dark);
   margin-bottom: 5px;
   text-transform: uppercase;
 }
 .contact-container .contact-description {
   font-size: 15px;
-  color: #ffffff;
+  color: #333;
   margin-bottom: 15px;
   text-align: center;
 }
 .contact-container .contact-block {
-  border-radius: 30px;
   display: flex;
-  align-items: center;
-  margin: auto;
-  width: 50%;
-  border: solid #eeeeee;
-  padding: 5px;
+  width: 100%;
 }
 .block-1 {
-  border-radius: 25px;
-  width: 100%;
+  width: 40%;
   background-color: var(--white);
   padding: 20px 25px;
+  margin-right: 25px;
+  border-top: 4px solid var(--primary);
+  border-bottom: 4px solid var(--primary);
   height: 500px;
 }
 .block-1 .address,
@@ -74,7 +53,7 @@
 .block-1 .address i:hover,
 .block-1 .email i:hover,
 .block-1 .phone i:hover {
-  background-color: var(--icons);
+  background-color: var(--primary);
   color: var(--white);
 }
 .block-1 .address .address-details,
@@ -130,69 +109,109 @@
   width: 100%;
   height: 100%;
 }
-
-
-
+.block-2 {
+  width: 60%;
+  padding: 20px 25px;
+  background-color: var(--white);
+  border-top: 4px solid var(--primary);
+  border-bottom: 4px solid var(--primary);
+  height: 500px;
+}
+form .form-row {
+  display: flex;
+  justify-content: space-between;
+}
+form .form-row .form-group input {
+  width: 280px;
+}
+form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+form .form-group label {
+  color: #222;
+  margin-bottom: 5px;
+}
+form .form-group input,
+form .form-group textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid var(--light);
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  color: #444;
+}
+form .form-group input:focus,
+form .form-group textarea:focus {
+  border: 1px solid var(--primary);
+}
+form .form-group textarea {
+  height: 150px;
+}
+form .btn-container {
+  display: flex;
+  justify-content: center;
+}
+form .btn-container button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  border: none;
+  outline: none;
+  color: var(--white);
+  border-radius: 5px;
+  margin-top: 10px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in;
+}
+form .btn-container button:hover {
+  background-color: var(--secondary);
+  opacity: 1;
+}
 @media (max-width: 1300px) {
-
-
+  .form-row .form-group input {
+    width: 225px !important;
+  }
+}
 @media (max-width: 1100px) {
   .contact-container {
     margin: 60px 30px;
-    height: 350px;
   }
-
-  .block-1 {
-    height: 270px;
-    padding: 10px 20px;
+  .form-row .form-group input {
+    width: 200px !important;
   }
-
-  .block-1 .map {
-    visibility: hidden;
-  }
-
 }
 @media (max-width: 800px) {
   .contact-container {
-    margin: 16px 20px;
+    margin: 60px 25px;
   }
   .contact-block {
-    height: 270px;
     flex-direction: column;
     justify-content: center !important;
     width: 100%;
   }
-
-  .block-1{
-    height: 100%;
+  .form-row .form-group input {
+    width: 280px !important;
+  }
+  .block-1,
+  .block-2 {
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 660px) {
-  .block-1
-   {
-    width: 100%;
-    height: 230px;
-    margin-bottom: 0px;
-    padding-right: 70px;
+  .block-1,
+  .block-2 {
+    height: auto;
   }
-
-  .block-1 i {
-    visibility: hidden;
+  .form-row {
+    flex-direction: column;
   }
-
-  .block-1 .address,
-  .block-1 .email,
-  .block-1 .phone {
-    display: flex;
-    align-items: center;
-    margin: 10px -70px;
-  }
-
-  .contact-container .contact-description {
-    margin: 10px 4px;
-    display: flex;
-    flex-wrap: wrap;
+  .form-row .form-group input {
+    width: 100% !important;
   }
 }
