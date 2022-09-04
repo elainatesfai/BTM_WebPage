@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./commonStructure/Card";
 import aim from "../css/images/Target_Outline.png"
-import teams from "../css/images/Team work_Two Color.png"
-import student from "../css/images/School_Outline.png"
+import teams from "../css/images/Team presentation _Outline.png"
+import student from "../css/images/Team work_Two Color.png"
 import "../css/infoCards.css";
 
 export default function InfoCards() {
