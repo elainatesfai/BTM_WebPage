@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "../css/pageIntro.css";
 import introvide from "../video/TalentMarketplace.mp4"
+// import PageIntroVideo from "../video/PageIntroVideo.mp4"
 
 export default function PageIntro() {
   const [toggle, setToggle] = useState(false);
@@ -17,11 +18,11 @@ export default function PageIntro() {
 
   return (
     <>
-      <div className="page-intro-container" id="home">
+      <div className="page-intro-container"id="home"> 
         <div className="text-container">
           <h1 className="intro-title">Brunel Talent Market Place</h1>
           <p className="intro-text">
-            A non-profit organisation aiming to foster symbiotic relations between industry and academia.
+            A non-profit IT organisation aiming to foster symbiotic relations between industry and academia.
           </p>
           <div className="btn-row">
             <button className="video btn" onClick={() => setToggle(!toggle)}>

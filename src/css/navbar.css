@@ -29,7 +29,7 @@
 }
 
 .nav-brand:hover {
-  color: hsl(198, 79%, 20%);
+  color: var(--icons);
 }
 
 .nav-toggler {
@@ -120,7 +120,7 @@
 }
 
 .pageScroll:hover {
-  background-color: hsl(152, 77%, 30%);
+  background-color: var(--icons);
 }
 
 @media (max-width: 1100px) {
@@ -176,7 +176,7 @@
     align-items:center;
     top: 100%;
     left: 0;
-    background-color: rgba(22, 170, 101, 0.97);
+    background-color: var(--icons);
     width: 100%;
 
     min-height: 0;

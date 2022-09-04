@@ -9,20 +9,21 @@ export default function InfoCards() {
   return (
     <div className="cards">
       <Card
-        image={aim}
-        title="Our Initiative"
-        text="We are driven by our desire to form bonds between industry and our talented students."
+        image={teams}
+        title="Company Culture"
+        // text="Our staff base is uniquely identifiable by our student talent and leading experts."
+        text="Our talented students deliver projects guided by leading experts."
       />
 
       <Card
-        image={teams}
-        title="Our Company Culture"
-        text="Our staff base is uniquely identifiable by our student talent and leading experts."
+        image={aim}
+        title="Competitive Prices"
+        text="We are a non-profit organisation providing quality services for a fraction of the industry price."
       />
 
       <Card
         image={student}
-        title="Our Competition"
+        title="Community Impact"
         text="We beat our competition with viable prices, whilst matching their quality of work."
       />
 

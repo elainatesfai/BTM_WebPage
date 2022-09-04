@@ -32,7 +32,7 @@
 
 .card-out .card-text {
   font-size: 15px;
-  color: var(--light);
+  color: black;
   position: relative;
   top: -40px;
 }
@@ -43,6 +43,7 @@
 }
 
 .card:hover {
+  cursor: pointer;
   border: 2px solid #e5e5e5;
 
 }
@@ -106,7 +107,7 @@
 }
 
 .card:hover .card-in {
-  opacity: 0.1;
+  opacity: 0.04;
 }
 
 .card:hover .card-out {
