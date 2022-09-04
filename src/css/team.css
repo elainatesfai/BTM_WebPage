@@ -50,6 +50,7 @@
   width: 100%;
   background: var(--light);
   margin-bottom: 10px;
+  /* background-color: rgba(121, 121, 121, 1); */
 }
 
 .talent-card .talent-details {
@@ -58,6 +59,7 @@
   align-items: center;
   text-align: center;
   height: 0px;
+
 }
 
 .talent-card .t-title {
@@ -67,19 +69,36 @@
 .talent-card .t-work {
   font-style: italic;
   font-size: 14px;
-  color: #444;
+  /* color: #444; */
 }
+
+.talent-card-out .t-title {
+  color: var(--icons);
+}
+
 
 .talent-card-out .t-title {
   color: var(--icons);
   margin-top: 30px;
 }
 
+=======
+
+
 .talent-card .t-description {
-  padding-bottom: 150px;
+  padding-bottom: 130px;
   font-size: 14px;
   color: black;
   font-style: italic;
+  margin-top: 30px;
+}
+
+.talent-card .talent-social-icons {
+  display: flex;
+  position: sticky;
+  margin-left: 45%;
+  align-items: center;
+  bottom: 7%;
 }
 
 .talent-card .talent-social-icons {
@@ -92,6 +111,9 @@
 
 .talent-card .talent-social-icons i {
   font-size: 1.3rem;  
+
+  
+
   color: var(--dark);
   cursor: pointer;
   align-items: center;

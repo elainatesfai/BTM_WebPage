@@ -32,8 +32,11 @@ export default function Navbar() {
       } else setScrollUp(false);
 
       navArray.forEach(async (element) => {
+
         if (window.innerHeight < 500) setActive("home");
         if (window.innerHeight > (await getPos(element)))
+
+
           setActive(element);
       });
     });

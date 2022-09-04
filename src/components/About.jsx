@@ -23,9 +23,6 @@ export default function App() {
               We aim to expand this model to other university departments, such as design, business management, and mechanical engineering
             </li>
           </ul>
-
-
-
         </div>
       </div>
     </div>   

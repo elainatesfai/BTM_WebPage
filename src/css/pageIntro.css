@@ -1,7 +1,10 @@
 
 .page-intro-container {
+
   margin: 10px 150px 0px 150px;
   height: 480px;
+
+
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;

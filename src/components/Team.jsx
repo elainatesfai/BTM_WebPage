@@ -29,6 +29,7 @@ const items = [
     description="I am an enthusiastic individual who is fascinated by technology and its constant advancements.
           I am currently a junior developer at Glue Reply."
     data-value="1"
+
   />,
 
   // <TalentCard
@@ -45,6 +46,7 @@ const items = [
     work="Programmer/Executive Team"
     description="I am strong-willed and strive to make my initial plans and prototypes a success regardless of the obstacles that stand in the way. This will facilitate me in becoming successful in this career."
     data-value="2"
+
   />,
 
   <TalentCard
@@ -52,15 +54,21 @@ const items = [
     name="Elaina Tesfai"
     work="Programmer/Executive Team"
     description="I am a dependable, quick-thinking and responsible individual that thoroughly enjoys challenging myself and pushing the boundaries of what I can achieve."
+
     data-value="3"
+
+
+
   />,
 
   <TalentCard
     image={Marwan}
     name="Marwan Haj Mohamed"
     work="Front-end Developer"
+
     description="I am a passionate, quick learning programmer that constantly broaden my knowledge in different languages to earn more experience in this field."
     data-value="4"
+
   />,
 
   <TalentCard
@@ -68,7 +76,9 @@ const items = [
     name="Shrawani Menghal"
     work="Data Analyst"
     description="I am a curious person, enthusiastic to learn how things around me work. I'm currently diving into the world of Data."
+
     data-value="5"
+
   />
 ]
 
