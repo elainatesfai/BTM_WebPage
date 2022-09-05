@@ -130,6 +130,7 @@
 
   .navbar-social .icon {
     font-size: 15px;
+    color: var(--icons);
   }
 }
 
@@ -158,14 +159,14 @@
   }
 
   .fas.fa-times {
-    color: white;
+    color: var(--icons);
     font-size: 28px;
     transform: rotate(180deg);
     transition: transform 1s ease-in-out;
   }
 
   .fas.fa-bars {
-    color: white;
+    color: var(--icons);
     transform: rotate(-180deg);
     transition: transform 1s ease-in-out;
   }
@@ -176,7 +177,7 @@
     align-items:center;
     top: 100%;
     left: 0;
-    background-color: var(--icons);
+    background-color: var(--secondary);
     width: 100%;
 
     min-height: 0;
@@ -205,23 +206,28 @@
 
   }
   .nav-link {
-    color: #222;
+    color: #f7f7f7;
   }
 
   .nav-link.active {
-    color: var(--white);
+    color: var(--icons);
   }
 
   .nav-link:hover {
-    color: var(--white);
+    color: var(--icons);
   }
 
   .navbar-social {
+    color: var(--icons);
     display: flex;
     justify-content: space-between;
     align-items:center;
     width: 120px;
     padding: 10px 0;
+  }
+  .navbar-social .icon a {
+
+    color: var(--icons);
   }
 
   .navbar-social .icon {
