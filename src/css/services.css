@@ -46,7 +46,7 @@
 .services-btn {
   border-radius: 15px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 2fr 1fr;
   align-items: center;
   justify-content: center;
   background-color: #f7f7f7;
@@ -75,6 +75,7 @@
   text-align: center;
   padding: 0 10px;
   color: var(--dark);
+  top: 10px;
 }
 
 .services-btn i {
@@ -124,6 +125,7 @@
 
   .services-btn {
     min-height: 120px;
+    grid-template-rows: 1.5fr 1fr;
   }
 
   .services-btn i {
