@@ -84,7 +84,7 @@ export default function App() {
     <div className="talents" id="talents">
       <div className="talent-title">Our Talents</div>
       <p className="talent-description">
-        our team ranges from a wide range of work experience
+        Meet our pool of talented students
       </p>
 
       <div className="talent-card-container">

@@ -116,7 +116,7 @@ export default function App() {
     <div className="experts" id="experts">
       <div className="experts-title">Our Experts</div>
       <p className="experts-description">
-        our team ranges from a wide range of work experience
+        Meet our  team of leading experts
       </p>
 
       <div className="experts-card-container">

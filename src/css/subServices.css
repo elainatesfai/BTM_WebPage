@@ -11,13 +11,16 @@
 }
 
 .subservice-card .card-title {
+    top: 10px;
     position: relative;
     bottom: 40px;
+    color: var(--icons);
 }
 
 .subservice-card .card-icon {
     position: relative;
     bottom: 20px;
+    color: var(--primary);
 }
 
 .subservice-card .card-text {

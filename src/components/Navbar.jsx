@@ -24,6 +24,7 @@ export default function Navbar() {
         "services",
         "talents",
         "experts",
+        "recruitment",
         "contact"
       ];
 
@@ -140,10 +141,26 @@ export default function Navbar() {
                     Experts
                   </button>
                 </li>
+
+                <li
+                  className="nav-item"
+                  onClick={() => handleNavItemClick("recruitment")}
+                >
+                  
+                  <button
+                    className={
+                      "nav-link" + (active === "recruitment" ? " active" : "")
+                    }
+                  >
+                    Recruitment
+                  </button>
+                </li>
+
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("contact")}
                 >
+                  
                   <button
                     className={
                       "nav-link" + (active === "contact" ? " active" : "")
@@ -153,7 +170,7 @@ export default function Navbar() {
                   </button>
                 </li>
               </div>
-              <div className="navbar-social">
+              {/* <div className="navbar-social">
                 <span className="icon">
                   <i className="fab fa-facebook"></i>
                 </span>
@@ -172,7 +189,7 @@ export default function Navbar() {
                 <span className="icon">
                   <i className="fab fa-instagram"></i>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
