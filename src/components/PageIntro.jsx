@@ -22,7 +22,7 @@ export default function PageIntro() {
         <div className="text-container">
           <h1 className="intro-title">Brunel <span className="talent">Talent</span> Market Place</h1>
           <p className="intro-text">
-            A non-profit IT organisation aiming to foster symbiotic relations between industry and academia.
+            We are an IT organisation inside Brunel University that aims to foster symbiotic relations between industry and academia.
           </p>
           <div className="btn-row">
             <button className="video btn" onClick={() => setToggle(!toggle)}>
