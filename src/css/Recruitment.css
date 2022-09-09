@@ -1,0 +1,23 @@
+.recruitment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: var(--primary);
+    height: 20rem;
+  }
+  .recruitment-container .title {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .recruitment-container .description {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 10px;
+  }
