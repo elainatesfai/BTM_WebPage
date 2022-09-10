@@ -1,0 +1,114 @@
+.about-container {
+  border-radius: 25px;
+  margin: 15px 150px;
+  display: flex;
+  align-items: center;
+  /* height: 350px; */
+  background-color: #f7f7f7;
+}
+
+.about-image-container {
+  width: 50%;
+  height: 300px;
+  padding: 30px;
+}
+
+.about-image {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  background: url("././images/img1.jpeg")
+  no-repeat center / cover;
+}
+
+.about-text-container {
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+}
+
+.about-title {
+  padding-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--dark);
+  font-size: 2rem;
+  color: var(--dark);
+  margin-bottom: 10px;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: var(--dark);
+  font-style: italic;
+}
+
+.about-text-container p:last-child {
+  color: var(--dark);
+}
+
+.list {
+  list-style: none;
+}
+
+.list li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 19px;
+  font-weight: 400;
+  content: "\f058";
+  width: 20px;
+  height: 20px;
+  color: var(--primary);
+  padding-right: 5px;
+}
+
+.list li {
+  padding: 10px 0;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+  .about-container {
+    margin: 15px 30px;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-description,
+  .list li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+    margin: 15px 25px;
+  }
+
+  .about-image-container,
+  .about-text-container {
+    width: 100%;
+  }
+
+  .about-image-container {
+    /* padding: 15px; */
+    padding: 15px;
+    padding-bottom: 0;
+  }
+
+  .about-text-container {
+    padding: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-image-container {
+    height: 250px;
+  }
+}
