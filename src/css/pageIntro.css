@@ -1,14 +1,16 @@
-
 .page-intro-container {
-  margin: 15px 150px;
-  height: 490px;
+ 
+  margin: 10px 150px 0px 150px;
+  height: 480px;
+ 
+
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
   background-color: var(--white);
   border-radius: 25px;
 }
-
+ 
 .text-container {
   padding: 0 30px;
   height: 100%;
@@ -17,25 +19,25 @@
   justify-content: center;
   width: 100%;
 }
-
+ 
 .intro-title {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--dark);
   padding-bottom: 10px;
 }
-
+ 
 .intro-text {
   font-size: 1.5rem;
   font-weight: 300;
   color: #9a9a9a;
   padding-bottom: 15px;
 }
-
+ 
 .btn-row {
   padding: 10px 0;
 }
-
+ 
 .btn {
   padding: 10px 25px;
   border: none;
@@ -47,21 +49,25 @@
   cursor: pointer;
   height: 45px;
 }
-
+ 
+.text-container .talent {
+  color: var(--icons);
+}
+ 
 .text.btn:hover {
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
 }
-
+ 
 .video.btn {
   background-color: #eee;
   margin-left: 15px;
   color: #777;
 }
-
+ 
 .video.btn:hover .icon {
   color: var(--icons) ;
 }
-
+ 
 .video.btn .icon {
   color: #888;
   font-size: 25px;
@@ -73,7 +79,7 @@
 .image-container {  
   width: 100%;
   height: 100%;
-  background: url("./images/Logo_btm.png")
+  background: url("../images/Logo_btm1.png")
   no-repeat center / contain;
   animation: introImage 2s ease-in-out infinite alternate-reverse;
 }
@@ -93,7 +99,7 @@
   opacity: 0;
   transition: all 1s ease-in-out;
 }
-
+ 
 .video-background.show {
   opacity: 1;
   top: 0;
@@ -102,7 +108,7 @@
   height: 100vh;
   z-index: 1;
 }
-
+ 
 .video-container {
   margin-top: 100px;
   width: 600px;
@@ -111,24 +117,24 @@
   border-radius: 0 0 20px 20px;
   z-index: 2;
 }
-
+ 
 .intro-video {
   width: 100%;
   height: 100%;
   outline: none;
   z-index: 10;
 }
-
+ 
 /* @keyframes introImage {
   from {
     transform: translateY(12px);
   }
-
+ 
   to {
     transform: translateY(-12px);
   }
 } */
-
+ 
 @media (max-width: 1100px) {
   .page-intro-container {
     height: 300px;
@@ -138,26 +144,26 @@
   .text-container {
     padding: 20px;
   }
-
+ 
   .intro-title {
     font-size: 2rem;
   }
-
+ 
   .intro-text {
     font-size: 1rem;
   }
-
+ 
   .btn {
     font-size: 0.8rem;
     padding: 5px 10px;
     height: 30px;
   }
-
+ 
   .image-container {
     height: 100%;
   }
 }
-
+ 
 @media (max-width: 800px) {
   .page-intro-container {
     display: flex;
@@ -166,15 +172,15 @@
     justify-content: center;
     height: 450px;
     padding-top: 10px;
-    margin: 15px 25px;
+    margin: 10px 25px 0px 25px;;
   }
-
+ 
   .text-container {
     width: 100%;
-    padding: 10px 15px;
+    padding: 0px 15px;
     height: auto;
   }
-
+ 
   .image-container {
     width: 100%;
   }

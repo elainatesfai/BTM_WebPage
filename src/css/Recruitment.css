@@ -1,23 +1,93 @@
 .recruitment-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin-top: 40px;
-    background-color: var(--primary);
-    height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: var(--primary);
+  height: auto;
+}
+
+.recruitment-container .title {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.recruitment-container .description {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.card-container{
+  align-items: center;
+  padding-top: 20px;
+  gap: 3rem;
+  /* display: grid; */
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.info-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 220px;
+  border-radius: 15px;
+  background-color: var(--secondary);
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.circle-container{
+  width: 70px;
+  height: 85px;
+}
+
+.circle-container .circle {
+  padding-top: 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 70px;
+  background-color: white;
+}
+
+.circle i {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.c-title{
+  color: var(--icons);
+}
+
+.c-description {
+  font-style: italic;
+  color: var(--white);
+  width: 300px;
+}
+
+@media (max-width: 1000px) {
+  .card-container {
+    width: 90%;
+    gap: 1rem;
   }
-  .recruitment-container .title {
-    font-size: 2rem;
-    color: #ffffff;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+  .card-container {
+    gap: 1rem;
   }
-  .recruitment-container .description {
-    font-size: 1rem;
-    color: #ffffff;
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 0 10px;
-  }
+}

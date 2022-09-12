@@ -1,21 +1,22 @@
 import React, { useCallback, useEffect, useState } from "react";
 import "../css/navbar.css";
-
+import BTM from "../images/Navbar-icon.png"
+ 
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState("home");
   const [scrollUp, setScrollUp] = useState(false);
-
+ 
   const handleNavToggle = () => {
     const state = toggle;
     setToggle(!state);
   };
-
+ 
   const handleNavItemClick = (item ) => {
     handleNavToggle();
     handleScroll(item);
   };
-
+ 
   const scroll = useCallback(() => {
     document.addEventListener("scroll", () => {
       const navArray = [
@@ -27,35 +28,38 @@ export default function Navbar() {
         "recruitment",
         "contact"
       ];
-
+ 
       if (window.pageYOffset > 300) {
         setScrollUp(true);
       } else setScrollUp(false);
-
+ 
       navArray.forEach(async (element) => {
-        if (window.innerHeight < 300) setActive("home");
-        if (window.innerHeight > (await getPos(element)) )
+ 
+        if (window.innerHeight < 500) setActive("home");
+        if (window.innerHeight > (await getPos(element)))
+ 
+
           setActive(element);
       });
     });
   }, []);
-
+ 
   useEffect(() => {
     scroll();
   }, [scroll]);
-
+ 
   const getPos = async (id) => {
     const element = await document.getElementById(id);
     const elementPosition = element.getBoundingClientRect().bottom;
-
+ 
     return elementPosition;
   };
-
+ 
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     const elementPosition = element.getBoundingClientRect().top;
     setActive(id);
-
+ 
     window.scrollBy({
       top: elementPosition - 60,
       behavior: "smooth"
@@ -74,6 +78,7 @@ export default function Navbar() {
           <div className="navbar">
             <div className="brand-container">
               <a href="/" className="nav-brand">
+                <img className="btm-logo" src={BTM} alt="BTM" />
                 BTM
               </a>
               <div className="nav-toggler" onClick={handleNavToggle}>
@@ -116,7 +121,7 @@ export default function Navbar() {
                     Services
                   </button>
                 </li>
-
+ 
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("talents")}
@@ -141,12 +146,11 @@ export default function Navbar() {
                     Experts
                   </button>
                 </li>
-
+ 
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("recruitment")}
                 >
-                  
                   <button
                     className={
                       "nav-link" + (active === "recruitment" ? " active" : "")
@@ -155,12 +159,11 @@ export default function Navbar() {
                     Recruitment
                   </button>
                 </li>
-
+ 
                 <li
                   className="nav-item"
                   onClick={() => handleNavItemClick("contact")}
                 >
-                  
                   <button
                     className={
                       "nav-link" + (active === "contact" ? " active" : "")
@@ -171,18 +174,6 @@ export default function Navbar() {
                 </li>
               </div>
               {/* <div className="navbar-social">
-                <span className="icon">
-                  <i className="fab fa-facebook"></i>
-                </span>
-                <span className="icon">
-                  <a
-                    href="https://twitter.com/hashBender"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </span>
                 <span className="icon">
                   <i className="fab fa-linkedin"></i>
                 </span>
