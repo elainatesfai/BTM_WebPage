@@ -75,6 +75,7 @@ const [active, setActive] = useState("POC");
             <p className="card-title">UX & UI Design</p>
           </button>
         </div>
+
         {/* <div className="arrow-down">
             <icon className="fa fa-caret-down"></icon>
             <icon className="fa fa-caret-down"></icon>
@@ -82,14 +83,9 @@ const [active, setActive] = useState("POC");
             <icon className="fa fa-caret-down"></icon>
             <icon className="fa fa-caret-down"></icon>
           </div> */}
+
         <p>{services}</p>
       </div>
     </>
   )
- 
 }
-
-
-
-
-

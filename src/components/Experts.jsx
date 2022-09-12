@@ -160,8 +160,8 @@ export default function App() {
           responsive={responsive}
           autoPlay
           infinite
-          autoPlayInterval={5000}
-          animationDuration={1000}
+          autoPlayInterval={2800}
+          animationDuration={1300}
         />
       </div>
     </div>
