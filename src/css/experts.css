@@ -4,7 +4,7 @@
   background-color: var(--white);
   text-align: center;
 }
-
+ 
 .experts-title {
   padding-top: 15px;
   color: var(--dark);
@@ -14,7 +14,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-
+ 
 .experts-description {
   color: var(--dark);
   padding-bottom: 5px;
@@ -22,74 +22,82 @@
   margin: 10px 0;
   padding: 0 30px;
 }
-
+ 
 .experts-card {
   display: flex;
   border-radius: 15px;
   flex-direction: column;
   align-items: center;
   max-width: 300px;
+  /* max-height: 250px; */
   background-color: #fff;
   margin: auto;
   margin-top: 15px;
   cursor: pointer;
 }
-
+ 
 .experts-body {
   color: var(--dark);
   padding: 15px;
   height: 350px;
   text-align: left;
 }
-
-.experts-card img {
+ 
+.experts-card-in img {
   filter: grayscale(100%);
   object-fit: cover;
-  border-radius: 15px;
-  height: 280px;
-  width: 100%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
   background: var(--light);
   margin-bottom: 10px;
 }
-
+ 
 .experts-card .experts-details {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   height: 0px;
 }
-
+ 
 .experts-card .t-title {
+  padding-top: 10px;
   font-weight: 660;
 }
-
+ 
 .experts-card .t-work {
   font-style: italic;
   font-size: 14px;
   color: #444;
 }
-
+ 
 .experts-card-out .t-title {
-  margin-top: 30px;
+  margin-top: 20px;
   color: var(--icons);
 }
-
+ 
 .experts-card .t-description {
-  padding-bottom: 150px;
+  padding-bottom: 10px;
   font-size: 14px;
   color: black;
   font-style: italic;
 }
-
+ 
 .experts-card .experts-social-icons {
+ 
   display: flex;
   position: sticky;
-  margin-left: 45%;
+  margin-left: 41%;
   align-items: center;
   bottom: 7%;
 }
-
+ 
+a + a {
+  padding: 5px;
+}
+ 
 .experts-card .experts-social-icons i {
   font-size: 1.3rem;  
   color: var(--dark);
@@ -97,41 +105,51 @@
   align-items: center;
   justify-content: center;
 }
-
+ 
 .experts-card .experts-social-icons i:hover {
   color: var(--primary);
 }
-
+ 
+.experts-card-out img{
+  background-image: url(../images/brunel-profile.png);
+  /* font-size: 0.2rem; */
+  /* height: 100%; */
+  color: var(--dark);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+ 
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
   display: none;
 }
-
+ 
 li.alice-carousel__dots-item {
   background-color: var(--primary) !important;
 }
-
+ 
 li.alice-carousel__dots-item.__active {
   background-color: var(--icons) !important;
 }
-
+ 
 ul.alice-carousel__dots {
   padding: 8px;
   margin: 0;
 }
-  
+ 
 @media (max-width: 1100px) {
   .experts-card-container {
-    margin: 15px 30px;
+    margin: 0px 30px;
   }
 }
-
+ 
 @media (max-width: 800px) {
   .experts-card-container {
-    margin: 15px 25px;
+    margin: 0px 25px;
   }
 }
-
+ 
 @media (max-width: 400px) {
   .experts-body {
     padding: 5px;
@@ -140,39 +158,38 @@ ul.alice-carousel__dots {
     width: 250px;
   }
 }
-
+ 
 @keyframes slide-up{
   from{
     transform: translateY(20px);
   }
-
+ 
   to{
     transform: translateY(0px);
   }
 }
-
+ 
 .experts-card-in {
   text-align: center;
   opacity: 1;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-
+ 
 .experts-card-out {
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-
+ 
 .experts-card:hover .experts-card-in {
   opacity: 0.04;
 }
-
+ 
 .experts-card:hover .experts-card-out {
-
+ 
   animation: slide-up 1s;
   position:relative;
   opacity: 1;
 }
-  

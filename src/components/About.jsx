@@ -2,7 +2,7 @@ import React from "react";
 import "../css/about.css";
 import InfoCards from "./InfoCards";
 import "../css/infoCards.css";
-
+ 
 export default function App() {
   return (
     <div className="about" id="about">
@@ -25,6 +25,6 @@ export default function App() {
           </ul>
         </div>
       </div>
-    </div>   
+    </div>  
   );
 }

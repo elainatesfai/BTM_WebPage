@@ -3,24 +3,26 @@
     height: 310px;
     width: auto;
     display: flex;
-    background-color: var(--white);
-    margin: 20px;
+    background-color: var(--secondary);
+    margin: 0px 20px 0px;
     padding: 10px 10px;
     align-items: center;
     justify-content: center;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+    margin-bottom: 20px;
 }
 
 .subservice-card .card-title {
     top: 10px;
     position: relative;
     bottom: 40px;
-    color: var(--icons);
+    color: var(--white);
 }
 
 .subservice-card .card-icon {
     position: relative;
     bottom: 20px;
-    color: var(--primary);
 }
 
 .subservice-card .card-text {
@@ -28,6 +30,7 @@
     font-size: 14px;
     top: 40px;
     text-align: center;
+    color: var(--white);
 }
 
 .subservice-card {
@@ -37,7 +40,7 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    background-color: var(--white);
+    background-color: var(--secondary);
     padding: 20px;
     width: 280px;
     height: 280px;
@@ -45,72 +48,76 @@
     margin: 10px;
 }
 
+.subservice-card i{
+    color: var(--icons);
+}
+ 
 .software-development{
     visibility: visible;
     display: flex;
 }
-
+ 
 .data-and-AI{
     visibility: visible;
     display: flex;
 }
-
+ 
 .proof-of-concept{
     visibility: visible;
     display: flex;
 }
-
+ 
 .research-and-development {
     visibility: visible;
     display: flex;
 }
-
+ 
 @media (max-width: 1100px) {
-
+ 
     .software-development{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .data-and-AI{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .proof-of-concept{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .research-and-development {
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
 }
-
+ 
 @media (max-width: 800px) {
     .software-development{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .data-and-AI{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .proof-of-concept{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .research-and-development {
         visibility: visible;
         display: flex;
@@ -122,14 +129,14 @@
         left: 18%;
         font-size: 2rem;
     }
-    
+   
     .sd-arrow i {
         color: var(--primary);
         position: relative;
         left: 33.5%;
         font-size: 2rem;
     }
-    
+   
     .poc-arrow i {
         color: var(--primary);
         display: flex;
@@ -137,14 +144,14 @@
         justify-content: center;
         font-size: 2rem;
     }
-    
+   
     .rd-arrow i {
         color: var(--primary);
         position: relative;
         left: 65%;
         font-size: 2rem;
     }
-    
+   
     .ux-arrow i {
         color: var(--primary);
         position: relative;
@@ -152,26 +159,26 @@
         font-size: 2rem;
     }
 }
-
+ 
 @media (max-width: 400px) {
     .software-development{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .data-and-AI{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .proof-of-concept{
         visibility: visible;
         display: flex;
         flex-direction: column;
     }
-    
+   
     .research-and-development {
         visibility: visible;
         display: flex;

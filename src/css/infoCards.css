@@ -3,7 +3,7 @@
   justify-content: space-between;
   margin: 0 145px;
 }
-
+ 
 .card {
   height: 200px;
   border-radius: 25px;
@@ -17,79 +17,79 @@
   border: 2px solid transparent;
   margin: 5px;
 }
-
+ 
 .card-icon {
-  
+ 
   font-size: 1.8rem;
   color: var(--primary);
 }
-
+ 
 .card-title {
   font-size: 1.1rem;
   margin: -40px 0;
   color: var(--dark);
 }
-
+ 
 .card-out .card-text {
   font-size: 15px;
   color: black;
   position: relative;
   top: -40px;
 }
-
+ 
 .card-out .card-title {
   position: relative;
   top: -80px;
 }
-
+ 
 .card:hover {
   cursor: pointer;
   border: 2px solid #e5e5e5;
-
+ 
 }
-
+ 
 .card:hover .card-out .card-title{
   color: var(--icons);
-
+ 
 }
-
+ 
 .card img {
   height: 140px;
   width: 100%;
   background: var(--white);
   object-fit: contain;
-
+ 
 }
-
+ 
 @media (max-width: 1100px) {
   .cards {
     margin: 20px;
   }
 }
-
+ 
 @media (max-width: 768px) {
   .cards {
     margin: 5px 25px;
     flex-direction: column;
     align-items: center;
   }
-
+ 
   .card {
     width: 100%;
     margin: 5px 10px;
   }
 }
-
+ 
 @keyframes slide-up{
   from{
     transform: translateY(20px);
   }
-
+ 
   to{
     transform: translateY(0px);
   }
 }
-
+ 
 .card-in {
   width: 100%;
   height: 100%;
@@ -98,18 +98,18 @@
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-
+ 
 .card-out {
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-
+ 
 .card:hover .card-in {
   opacity: 0.04;
 }
-
+ 
 .card:hover .card-out {
   animation: slide-up 1s;
   position:relative;
