@@ -21,7 +21,7 @@ import Isabel from "../images/Experts/Isabel_Sasoon.png"
 const items = [
   <ExpertsCard
           image={Alan}
-          name="Alan Serrano Rico"
+          name="Alan Serrano-Rico"
           work="Director/R&D Expert"
           description="My research has mainly focused on applying scientific research to real-life challenges organisations face when adopting ICT.
           As the founder and director of BTM, I am keen on developing better, closer relationships between industry, academia, and our talented students. "

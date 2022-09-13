@@ -1,7 +1,7 @@
 import React from "react";
-
+ 
 import "../css/contact.css";
-
+ 
 export default function App() {
   return (
     <div className="contact-container" id="contact">
@@ -33,7 +33,7 @@ export default function App() {
               <p>01895 266048</p>
             </div>
           </div>
-
+ 
           <div className="map">
             <iframe
               title="iframe"
@@ -57,7 +57,7 @@ export default function App() {
                 <input type="email" id="email" />
               </div>
             </div>
-
+ 
             <div className="form-group">
               <label htmlFor="subject">Subject</label>
               <input type="text" id="subject" />
@@ -75,3 +75,7 @@ export default function App() {
     </div>
   );
 }
+ 
+ 
+ 
+ 

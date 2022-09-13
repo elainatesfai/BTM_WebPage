@@ -13,16 +13,16 @@ export default function App() {
           </div>
 
           <div className="social-block">
-            <i className="fab fa-twitter"></i>
+            {/* <i className="fab fa-twitter"></i> */}
             <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
+            {/* <i className="fab fa-linkedin"></i> */}
           </div>
         </div>
         <div className="footer-end">
-          <span>
+          {/* <span>
             <i className="far fa-copyright"></i> Copyright BTM. All
             rights reserved.
-          </span>
+          </span> */}
         </div>
       </div>
     </div>
