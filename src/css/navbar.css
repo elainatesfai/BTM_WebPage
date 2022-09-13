@@ -195,13 +195,13 @@ img {
  
   .nav-collapse.show {
     visibility: visible;
-    min-height: 270px !important;
+    min-height: 230px !important;
     opacity: 1;
     z-index: 10;
   }
  
   .navbar-list {
- 
+    margin-top: 10px;
     flex-direction: column;
     align-items:center;
   }

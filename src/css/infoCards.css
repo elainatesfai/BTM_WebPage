@@ -29,6 +29,13 @@
   margin: -40px 0;
   color: var(--dark);
 }
+
+.card-in .card-title {
+  font-size: 15px;
+  color: black;
+  position: relative;
+  top: 25px;
+}
  
 .card-out .card-text {
   font-size: 15px;
