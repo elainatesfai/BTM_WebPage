@@ -11,7 +11,6 @@ export default function InfoCards() {
       <Card
         image={teams}
         title="Company Culture"
-        // text="Our staff base is uniquely identifiable by our student talent and leading experts."
         text="Our talented students deliver projects guided by leading experts."
       />
       <Card
@@ -25,9 +24,6 @@ export default function InfoCards() {
         title="Competitive Prices"
         text="We provide quality services without the industry’s profit margins"
       />
-
-
-
     </div>
   );
 }

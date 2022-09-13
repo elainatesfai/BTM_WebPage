@@ -173,6 +173,7 @@ export default function Navbar() {
                   </button>
                 </li>
               </div>
+
               {/* <div className="navbar-social">
                 <span className="icon">
                   <i className="fab fa-linkedin"></i>
@@ -181,6 +182,7 @@ export default function Navbar() {
                   <i className="fab fa-instagram"></i>
                 </span>
               </div> */}
+
             </div>
           </div>
         </div>

@@ -86,6 +86,7 @@
  
 @media (max-width: 800px) {
   .about-container {
+    height: 400px;
     flex-direction: column;
     margin: 15px 25px;
   }
@@ -96,6 +97,7 @@
   }
  
   .about-image-container {
+    /* padding: 15px; */
     padding: 15px;
     padding-bottom: 0;
   }
