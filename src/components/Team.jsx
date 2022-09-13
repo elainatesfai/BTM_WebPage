@@ -5,11 +5,13 @@ import "react-alice-carousel/lib/alice-carousel.css";
  
 import "../css/team.css";
  
-import Elaina from"../images/Talents/ElainaTesfai.png"
 import Islam from"../images/Talents/IslamRaihan.png"
-import Shrawani from"../images/Talents/ShrawaniMenghal.png"
 import Thoybur from"../images/Talents/ThoyburRohman.png"
+import Elaina from"../images/Talents/ElainaTesfai.png"
 import Marwan from"../images/Talents/MarwanHajMohamed.png"
+import Shrawani from "../images/Talents/ShrawaniMenghal.png"
+import Samuel from "../images/Talents/SamuelAsareBotwe.png"
+import Ritu from "../images/Talents/RituGulia.png"
  
 const items = [
   // <TalentCard
@@ -73,7 +75,24 @@ const items = [
     description="I am a curious person, enthusiastic to learn how things around me work. I'm currently diving into the world of Data."
     linkedIn="https://www.linkedin.com/in/shrawanimenghal/"
     data-value="5"
- 
+  />,
+
+  <TalentCard
+    image={Samuel}
+    name=" Samuel Asare Botwe"
+    work="Data Analyst"
+    description="I am a very motivated data analyst and computer programmer that is willing to learn and use their skills to provide problem-solving strategies and applications."
+    linkedIn="https://www.linkedin.com/in/shrawanimenghal/"
+    data-value="6"
+  />,
+
+  <TalentCard
+    image={Ritu}
+    name="Ritu Gulia"
+    work="Data Analyst"
+    description="“I enjoy problem-solving and am passionate about learning and diving deeper into data. I am highly imaginative and eager to learn, which helps me make challenging judgements. "
+    linkedIn="https://www.linkedin.com/in/shrawanimenghal/"
+    data-value="7"
   />
 ]
  
