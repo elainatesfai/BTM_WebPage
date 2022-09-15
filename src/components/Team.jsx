@@ -12,13 +12,14 @@ import Marwan from"../images/Talents/MarwanHajMohamed.png"
 import Shrawani from "../images/Talents/ShrawaniMenghal.png"
 import Samuel from "../images/Talents/SamuelAsareBotwe.png"
 import Ritu from "../images/Talents/RituGulia.png"
+import Kiran from '../images/Talents/KiranVelpula.png'
  
 const items = [
  
   <TalentCard
     image={Thoybur}
     name="Thoybur Rohman"
-    work="Full-stack Developer/Executive Team"
+    work="Executive Team/Full-stack Developer"
     description="I am strong-willed and strive to make my initial plans and prototypes a success regardless of the obstacles that stand in the way. This will facilitate me in becoming successful in this career."
     linkedIn="https://www.linkedin.com/in/thoybur/"
     data-value="1"
@@ -27,7 +28,7 @@ const items = [
   <TalentCard
     image={Elaina} alt="image"
     name="Elaina Tesfai"
-    work="Front-end Developer/Executive Team"
+    work="Executive Team/Front-end Developer"
     description="I am a dependable, quick-thinking and responsible individual that thoroughly enjoys challenging myself and pushing the boundaries of what I can achieve."
     linkedIn="https://www.linkedin.com/in/elaina-tesfai-213a19243/"
     data-value="2"
@@ -36,7 +37,7 @@ const items = [
   <TalentCard
     image={Marwan}
     name="Marwan Haj Mohamed"
-    work="Front-end Developer/Executive Team"
+    work="Executive Team/Front-end Developer"
     description="I am a passionate, quick learning programmer that constantly broaden my knowledge in different languages to earn more experience in this field."
     linkedIn="https://www.linkedin.com/in/marwan-haj-mohamed-305578218/"
     data-value="3"
@@ -78,6 +79,15 @@ const items = [
     description="I enjoy problem-solving and am passionate about learning and diving deeper into data. I am highly imaginative and eager to learn, which helps me make challenging judgements. "
     linkedIn="https://www.linkedin.com/in/ritu-gulia-18b73b175/?originalSubdomain=in"
     data-value="8"
+  />,
+
+  <TalentCard
+    image={Kiran}
+    name="Kiran Velpula"
+    work="Data Analyst"
+    description="My curiosity takes me places, to me it makes data science seem like detectives work - to uncover hidden insights."
+    linkedIn="https://www.linkedin.com/in/bhanu-kiran-b501a61b8/?originalSubdomain=uk"
+    data-value="9"
   />
 ]
  
