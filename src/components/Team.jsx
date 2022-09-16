@@ -5,10 +5,11 @@ import "react-alice-carousel/lib/alice-carousel.css";
  
 import "../css/team.css";
  
-import Islam from"../images/Talents/IslamRaihan.png"
-import Thoybur from"../images/Talents/ThoyburRohman.png"
-import Elaina from"../images/Talents/ElainaTesfai.png"
-import Marwan from"../images/Talents/MarwanHajMohamed.png"
+import Islam from "../images/Talents/IslamRaihan.png"
+import Thoybur from "../images/Talents/ThoyburRohman.png"
+import Elaina from "../images/Talents/ElainaTesfai.png"
+import Marwan from "../images/Talents/MarwanHajMohamed.png"
+import Robert from "../images/Talents/RobertShuttleworth.png"
 import Shrawani from "../images/Talents/ShrawaniMenghal.png"
 import Samuel from "../images/Talents/SamuelAsareBotwe.png"
 import Ritu from "../images/Talents/RituGulia.png"
@@ -55,12 +56,21 @@ const items = [
   />,
  
   <TalentCard
+    image={Robert}
+    name="Robert Shuttleworth"
+    work="Programmer"
+    description="An articulate and motivated individual with experience working with multiple programming languages. I am keen to develop my existing skills and learn new skills to complement them."
+    linkedIn="https://www.linkedin.com/in/robertshuttleworth/?originalSubdomain=uk"
+    data-value="5"
+  />,
+
+  <TalentCard
     image={Shrawani}
     name="Shrawani Menghal"
     work="Data Analyst"
     description="I am a curious person, enthusiastic to learn how things around me work. I'm currently diving into the world of Data."
     linkedIn="https://www.linkedin.com/in/shrawanimenghal/"
-    data-value="5"
+    data-value="6"
   />,
 
   <TalentCard
@@ -69,7 +79,7 @@ const items = [
     work="Data Analyst"
     description="I am a very motivated data analyst and computer programmer that is willing to learn and use their skills to provide problem-solving strategies and applications."
     linkedIn="https://www.linkedin.com/in/samuel-botwe-b130491b9/?originalSubdomain=gh"
-    data-value="6"
+    data-value="7"
   />,
 
   <TalentCard
