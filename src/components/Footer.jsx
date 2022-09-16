@@ -13,9 +13,9 @@ export default function App() {
           </div>
 
           <div className="social-block">
-            {/* <i className="fab fa-twitter"></i> */}
-            <i className="fab fa-instagram"></i>
-            {/* <i className="fab fa-linkedin"></i> */}
+            <a href="https://instagram.com/bruneltalentmarketplace?igshid=YmMyMTA2M2Y=">
+              <i className="fab fa-instagram"></i>
+            </a>
           </div>
         </div>
         <div className="footer-end">

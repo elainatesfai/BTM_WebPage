@@ -20,12 +20,15 @@
 .contact-container .contact-block {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 .block-1 {
-  width: 40%;
+  /* width: 40%; */
+  width: 90%;
+  align-items: center;
   background-color: var(--white);
-  padding: 20px 25px;
-  margin-right: 25px;
+  padding: 20px 20px;
+
   border-top: 4px solid var(--primary);
   border-bottom: 4px solid var(--primary);
   height: 500px;
@@ -55,6 +58,7 @@
 .block-1 .phone i:hover {
   background-color: var(--primary);
   color: var(--white);
+  cursor: pointer;
 }
 .block-1 .address .address-details,
 .block-1 .email .address-details,

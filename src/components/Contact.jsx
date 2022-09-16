@@ -13,21 +13,27 @@ export default function App() {
       <div className="contact-block">
         <div className="block-1">
           <div className="address">
-            <i className="fas fa-map-marker-alt"></i>
+            <a href="https://www.google.com/maps/place/Brunel+University+London/@51.5321389,-0.474938,17z/data=!4m5!3m4!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a!8m2!3d51.5321389!4d-0.4727493">
+              <i className="fas fa-map-marker-alt"></i>
+            </a>
             <div className="address-details">
               <p>Location</p>
               <p>Kingston Ln, London, Uxbridge UB8 3PH</p>
             </div>
           </div>
           <div className="email">
-            <i className="fas fa-envelope"></i>
+            <a href="mailto:btm@brunel.ac.uk?subject=BTM Query">
+              <i className="fas fa-envelope"></i>
+            </a>
             <div className="email-details">
               <p>Email</p>
               <p>btm@brunel.ac.uk</p>
             </div>
           </div>
           <div className="phone">
-            <i className="fas fa-phone-alt"></i>
+            <a href="tel:01895 266048">
+              <i className="fas fa-phone-alt"></i>
+            </a>
             <div className="phone-details">
               <p>Call</p>
               <p>01895 266048</p>
@@ -45,7 +51,8 @@ export default function App() {
             ></iframe>
           </div>
         </div>
-        <div className="block-2">
+
+        {/* <div className="block-2">
           <form action="#">
             <div className="form-row">
               <div className="form-group">
@@ -70,7 +77,7 @@ export default function App() {
               <button type="submit">Send Message</button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );

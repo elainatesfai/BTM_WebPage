@@ -51,6 +51,23 @@
   border-bottom: 2px solid var(--white);
 }
 
+.info-container h2 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  /* color: #FFD200; */
+  color: darkgray;
+  text-decoration: underline;
+  /* text-decoration-color: #FFD200; */
+  color: darkgray;
+
+}
+
+.info-container h2:hover {
+  cursor: pointer;
+}
+
 .circle-container{
   width: 70px;
   height: 85px;
@@ -71,10 +88,12 @@
 
 .c-title{
   color: var(--icons);
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .c-description {
-  font-style: italic;
+  /* font-style: italic; */
   color: var(--white);
   width: 300px;
 }
