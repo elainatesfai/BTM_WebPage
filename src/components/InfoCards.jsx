@@ -11,7 +11,7 @@ export default function InfoCards() {
       <Card
         image={teams}
         title="Company Culture"
-        text="Our talented students deliver projects guided by leading experts."
+        text="Our workforce is fully comprised of talented students led by our experts."
       />
       <Card
         image={student}

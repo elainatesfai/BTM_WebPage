@@ -14,6 +14,7 @@ import Shrawani from "../images/Talents/ShrawaniMenghal.png"
 import Samuel from "../images/Talents/SamuelAsareBotwe.png"
 import Ritu from "../images/Talents/RituGulia.png"
 import Kiran from '../images/Talents/KiranVelpula.png'
+import Avi from '../images/Talents/AviSharma.png'
  
 const items = [
  
@@ -96,8 +97,17 @@ const items = [
     name="Kiran Velpula"
     work="Data Analyst"
     description="My curiosity takes me places, to me it makes data science seem like detectives work - to uncover hidden insights."
-    linkedIn="https://www.linkedin.com/in/bhanu-kiran-b501a61b8/?originalSubdomain=uk"
+    linkedIn="https://www.linkedin.com/in/avisharma100193/"
     data-value="9"
+  />,
+
+  <TalentCard
+    image={Avi}
+    name="Avi Sharma"
+    work="Data Analyst"
+    description="I am an enthusiastic and hardworking data science professional equipped with a business and analytical skillset who  has extensive working knowledge of data analysis projects in Python and R."
+    linkedIn="https://www.linkedin.com/in/avisharma100193/"
+    data-value="10"
   />
 ]
  
